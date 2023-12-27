@@ -1,0 +1,15 @@
+version: "3.5"
+services:
+  mysql8-testtype:
+    image: mysql:8.2.0
+    container_name: mysql8-testtype
+    restart: always
+    ports:
+      - "3307:3306"
+    networks:
+      - mydatabases
+    environment:
+      MYSQL_ROOT_PASSWORD: 123456
+      MYSQL_ROOT_HOST: "%"
+networks:
+  mydatabases:

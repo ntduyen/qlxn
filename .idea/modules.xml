@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/config-server/config-server.iml" filepath="$PROJECT_DIR$/config-server/config-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/discovery/discovery.iml" filepath="$PROJECT_DIR$/discovery/discovery.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gateway/gateway.iml" filepath="$PROJECT_DIR$/gateway/gateway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/patient/patient.iml" filepath="$PROJECT_DIR$/patient/patient.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/qlxn.iml" filepath="$PROJECT_DIR$/.idea/qlxn.iml" />
+      <module fileurl="file://$PROJECT_DIR$/request/request.iml" filepath="$PROJECT_DIR$/request/request.iml" />
+      <module fileurl="file://$PROJECT_DIR$/standardtest/standardtest.iml" filepath="$PROJECT_DIR$/standardtest/standardtest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/testtype/testtype.iml" filepath="$PROJECT_DIR$/testtype/testtype.iml" />
+    </modules>
+  </component>
+</project>

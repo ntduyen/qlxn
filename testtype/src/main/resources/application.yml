@@ -1,0 +1,31 @@
+#eureka:
+#  instance:
+#    hostname: localhost
+#  client:
+#    service-url:
+#      defaultZone: http://localhost:8761/eureka/
+
+server:
+  port: 8082
+spring:
+  application:
+    name: testtype
+  config:
+    import: optional:configserver:http://localhost:8888
+#  datasource:
+#    driver-class-name: com.mysql.jdbc.Driver
+#    url: jdbc:mysql://localhost:3306/testtype
+#    username: root
+#    password: 123456
+#    jpa:
+#      hibernate:
+#        ddl-auto: update
+#        generate-ddl: true
+#        show-sql: true
+#      database-platform: org.hibernate.dialect.MySQLDialect
+#  swagger-ui:
+#    path: /swagger-ui.html
+#
+#application:
+#    config:
+#      standardtest-url: http://localhost:9000/api/v1/StandardTest
